@@ -1,0 +1,69 @@
+body {
+    font-family: 'Murecho', sans-serif;
+    margin: 0px;
+    display: grid;
+    grid-template-columns:40px repeat(6, 1fr) 40px;
+    grid-template-rows: 60px repeat(3, 1fr) 50px;
+    column-gap: 15px;
+    row-gap: 40px;
+
+}
+
+h1 {
+    margin: 0px;
+    font-size: 3em;
+}
+
+header {
+    height: min(25vw, 150px);
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    align-self: center;
+}
+
+ul {
+    margin: 0px;
+    grid-row-start: 4;
+    grid-column-start: 6;
+    grid-column-end: 8;
+}
+
+li {
+    font-size: 1.2rem;
+}
+
+.one {
+    width: 40vw;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    grid-column-start: 6;
+    grid-column-end: 8;
+}
+.two {
+   width: 40vw;
+   grid-row-start: 4;
+   grid-row-end: 5;
+   grid-column-start: 2;
+   grid-column-end: 5;
+}
+
+div {
+    background-color: rgb(80, 80, 80);
+    height: 60px;
+    width: 100%;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 9;  
+}
+
+span {
+    border-top: 5px;
+    border-bottom: 5px;
+    border-left: 10px;
+    border-right: 10px;
+    border-radius: 20%;
+    border-color: black;
+    background-color: black;
+    color: rgb(255, 255, 255); 
+}
