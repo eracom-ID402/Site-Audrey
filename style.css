@@ -53,14 +53,6 @@ li {
     font-size: 1.2rem;
 }
 
-.one {
-    width: 40px;
-    grid-row-start: 2;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    fill: beige;
-}
-
 .two {
     width: 40vw;
     grid-row-start: 4;
