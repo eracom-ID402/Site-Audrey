@@ -54,7 +54,7 @@ li {
 }
 
 .two {
-    width: 40vw;
+    width: 60vw;
     grid-row-start: 4;
     grid-row-end: 5;
     grid-column-start: 2;
