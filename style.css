@@ -69,3 +69,8 @@ div {
     grid-column-start: 1;
     grid-column-end: 9;
 }
+
+footer {
+    background-color: beige;
+    
+}
